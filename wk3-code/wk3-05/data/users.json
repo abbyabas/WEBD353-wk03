@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Franky",
+        "breed": "Yorkie",
+        "age": "12",
+        "owner": "The Hoff",
+        "img": "/images/frankie.jpg"
+   },
+    {
+        "name": "Milo",
+        "breed": "Lab/Sharpei",
+        "age": "7",
+        "owner": "Rob",
+        "img": "/images/milo.jpg"
+
+   },
+    {
+        "name": "Isis",
+        "breed": "Alaskan Malamute",
+        "age": "1",
+        "owner": "Pam Anderson",
+        "img": "/images/isis.jpg"
+   },
+    {
+        "name": "Billie",
+        "breed": "Pitbull",
+        "age": "3",
+        "owner": "Annie Jones",
+        "img": "/images/billie.jpg"
+   }
+]

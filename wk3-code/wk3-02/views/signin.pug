@@ -1,0 +1,15 @@
+doctype html
+html
+    head
+        title= title
+        link(rel="stylesheet",href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+        link(rel='stylesheet', href='/css/stylesheet.css')
+        
+    body
+        if(user)
+            h1 Hi, #{user.name}
+            p Where do you want the internet to take you today?
+        else
+            h1 You need to sign-up for an account
+            button(type="button", class="btn btn-primary") Sign-up 
+        script(src='/js/myscript.js')

@@ -1,0 +1,24 @@
+doctype html
+html
+    head
+        title= title
+        link(rel="stylesheet",href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+        link(rel='stylesheet', href='/css/stylesheet.css')
+
+    body
+        h1= name
+        #content
+            p.hello hello there, my name is #{name}
+            a(href= url)
+                img(src='/images/doggo.gif', rel= name)
+            iframe(width='660', height='371', src= url)
+            //Other ways of putting text in a tag
+            //Piped
+            div
+                | Hello There
+                | I'm a cute pug
+            //Block of text with a .
+            div.
+                If I don't want to use a pipe, I can
+                put a '.' after the tag.
+        script(src='/js/myscript.js')

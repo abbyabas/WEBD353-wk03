@@ -1,0 +1,24 @@
+doctype html
+html
+    head
+        title= title
+        link(rel="stylesheet",href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+        link(rel='stylesheet', href='/css/stylesheet.css')
+
+    body
+        include ./header.pug
+        div(class="container")
+            h1= name
+            p.hello hello there, my name is #{name}
+            div(class="row")
+                - var n = 0;
+                    //change the number of pugs
+                    while n < 40
+                        div(id= n++, class="col-xs-6 col-md-3")
+                            div(class="thumbnail")
+                                a(href= url)
+                                    img(src='/images/doggo.gif', rel= name)
+                                p
+                                a(class="btn btn-primary btn-lg", href="#" role="button") Learn more
+        script(src='/js/myscript.js')
+        include ./footer.pug
